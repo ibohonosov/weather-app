@@ -1,0 +1,21 @@
+.favorite-page {
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+.favorite-page__title {
+    color: #fff;
+}
+.favourites__page-cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+}

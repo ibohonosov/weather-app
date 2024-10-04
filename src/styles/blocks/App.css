@@ -1,0 +1,29 @@
+.app {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.app__home-page, .app__favotites-page {
+    display: inline-block;
+    outline: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    margin-inline: 10px;
+}
+
+.app__home-page:hover, .app__favotites-page:hover {
+    color: #144ED4;
+    transition: 0.3s;
+}
+
+.app__favotites-page {
+    outline: none;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+}
+.active-link {
+    border-bottom: 2px solid #144ED4;
+
+}

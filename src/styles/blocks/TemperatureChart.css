@@ -1,0 +1,11 @@
+.temperature-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    min-width: 340px;
+}
+.temperature-chart canvas {
+    width: 100%;
+    height: auto;
+}
